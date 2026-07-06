@@ -1,0 +1,9 @@
+node_modules
+dist
+.DS_Store
+*.local
+*.tsbuildinfo
+
+# Local tooling / references (not part of the app)
+.claude
+.playwright-mcp
