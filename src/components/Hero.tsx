@@ -18,9 +18,11 @@ export default function Hero() {
           {/* Copy */}
           <div className="max-w-xl">
             <h1 className="text-[clamp(2rem,5vw,3.25rem)] font-extrabold leading-[1.08] tracking-tight text-ink">
-              {hero.titleLead}{" "}
-              <span className="text-brand-500">{hero.titleAccent}</span>
-              <br className="hidden sm:block" /> {hero.titleTail}
+              {hero.titleLead}
+              <br />
+              <span className="text-brand-500">{hero.titleAccent}</span>{" "}
+              <br className="hidden sm:block" />
+              {hero.titleTail}
             </h1>
             <p className="mt-5 max-w-md text-base leading-relaxed text-muted">
               {hero.subtitle}
@@ -38,12 +40,17 @@ export default function Hero() {
 
           {/* Image */}
           <div className="relative">
-            <div
-              aria-hidden
-              className="absolute inset-0 -z-0 mx-auto max-w-[520px] rounded-full bg-gradient-to-br from-brand-500/25 via-brand-400/10 to-transparent blur-2xl"
-            />
-            <div className="relative mx-auto max-w-[560px]">
-              <div className="overflow-hidden rounded-[32px] rounded-tr-[120px] shadow-[0_30px_60px_-25px_rgba(15,26,61,0.45)] ring-1 ring-navy-900/5">
+            <div className="relative mx-auto max-w-[600px]">
+              {/* Solid blue circle behind the photo (peeks top-left, like the design) */}
+              <div
+                aria-hidden
+                className="absolute -left-5 -top-5 -z-10 aspect-square w-[85%] rounded-full bg-brand-500"
+              />
+              <div
+                aria-hidden
+                className="absolute -left-10 -top-10 -z-20 aspect-square w-[95%] rounded-full bg-brand-500/15 blur-2xl"
+              />
+              <div className="relative overflow-hidden rounded-[32px] rounded-tl-[130px] shadow-[0_30px_60px_-25px_rgba(15,26,61,0.45)] ring-1 ring-navy-900/5">
                 <img
                   src={asset(hero.image)}
                   alt="Специалист технической поддержки Support Station"

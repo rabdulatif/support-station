@@ -25,7 +25,7 @@ export default function Partners() {
               <img
                 src={asset(logo.src)}
                 alt={logo.name}
-                className="max-h-12 w-auto max-w-[160px] object-contain"
+                className="max-h-14 w-auto max-w-[150px] object-contain"
                 loading="lazy"
               />
             </div>

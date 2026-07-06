@@ -61,7 +61,7 @@ export default function Header() {
             <button
               aria-label="Меню"
               onClick={() => setOpen((v) => !v)}
-              className="flex size-9 items-center justify-center rounded-lg text-ink transition-colors hover:bg-surface lg:hidden"
+              className="flex size-9 items-center justify-center rounded-lg text-ink transition-colors hover:bg-surface"
             >
               {open ? <X className="size-6" /> : <Menu className="size-6" />}
             </button>
