@@ -1,4 +1,5 @@
 import Container from "./layout/Container";
+import { asset } from "../lib/asset";
 import { about } from "../data/content";
 
 export default function About() {
@@ -37,7 +38,7 @@ export default function About() {
                 className="pointer-events-none absolute inset-0 z-10 bg-gradient-to-r from-navy-900 via-navy-900/20 to-transparent"
               />
               <img
-                src={about.image}
+                src={asset(about.image)}
                 alt="Дата-центр Support Station"
                 className="absolute inset-0 size-full object-cover"
                 loading="lazy"

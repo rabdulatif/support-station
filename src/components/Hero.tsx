@@ -2,6 +2,7 @@ import { ArrowRight } from "lucide-react";
 import Container from "./layout/Container";
 import Button from "./ui/Button";
 import Icon from "./ui/Icon";
+import { asset } from "../lib/asset";
 import { hero, heroFeatures } from "../data/content";
 
 export default function Hero() {
@@ -44,7 +45,7 @@ export default function Hero() {
             <div className="relative mx-auto max-w-[560px]">
               <div className="overflow-hidden rounded-[32px] rounded-tr-[120px] shadow-[0_30px_60px_-25px_rgba(15,26,61,0.45)] ring-1 ring-navy-900/5">
                 <img
-                  src={hero.image}
+                  src={asset(hero.image)}
                   alt="Специалист технической поддержки Support Station"
                   className="aspect-[4/3] w-full object-cover"
                   loading="eager"

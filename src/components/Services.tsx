@@ -3,6 +3,7 @@ import Container from "./layout/Container";
 import Button from "./ui/Button";
 import Icon from "./ui/Icon";
 import SectionLabel from "./ui/SectionLabel";
+import { asset } from "../lib/asset";
 import { services } from "../data/content";
 
 export default function Services() {
@@ -49,7 +50,7 @@ export default function Services() {
               {/* Illustration */}
               <div className="mt-8 overflow-hidden rounded-2xl ring-1 ring-white/10">
                 <img
-                  src={services.card.image}
+                  src={asset(services.card.image)}
                   alt="DLP — защита данных"
                   className="aspect-[16/10] w-full object-cover"
                   loading="lazy"

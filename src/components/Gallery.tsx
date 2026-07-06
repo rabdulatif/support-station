@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import Container from "./layout/Container";
 import SectionLabel from "./ui/SectionLabel";
+import { asset } from "../lib/asset";
 import { gallery } from "../data/content";
 
 function usePerView() {
@@ -54,7 +55,7 @@ export default function Gallery() {
                 >
                   <div className="overflow-hidden rounded-2xl shadow-[0_16px_40px_-28px_rgba(15,26,61,0.4)]">
                     <img
-                      src={src}
+                      src={asset(src)}
                       alt={`Момент сотрудничества ${i + 1}`}
                       className="aspect-[4/5] w-full object-cover transition-transform duration-500 hover:scale-105"
                       loading="lazy"
