@@ -20,12 +20,12 @@ export default function Partners() {
           {partners.logos.map((logo) => (
             <div
               key={logo.name}
-              className="flex h-24 items-center justify-center rounded-2xl border border-line bg-white px-5 grayscale transition-all duration-200 hover:grayscale-0 hover:shadow-[0_16px_40px_-28px_rgba(15,26,61,0.35)]"
+              className="flex h-24 items-center justify-center rounded-2xl border border-line bg-white px-5 transition-shadow duration-200 hover:shadow-[0_16px_40px_-28px_rgba(15,26,61,0.35)]"
             >
               <img
                 src={asset(logo.src)}
                 alt={logo.name}
-                className="max-h-9 w-auto max-w-[130px] object-contain"
+                className="max-h-12 w-auto max-w-[160px] object-contain"
                 loading="lazy"
               />
             </div>

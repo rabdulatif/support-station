@@ -19,7 +19,7 @@ export const hero = {
     "Комплексные IT-решения и круглосуточная поддержка для стабильной работы вашей компании",
   primaryCta: "Наши услуги",
   secondaryCta: "О компании",
-  image: "/images/hero-agent.svg",
+  image: "/images/hero-agent.png",
 };
 
 export const heroFeatures = [
@@ -55,7 +55,7 @@ export const services = {
     title: "Защита данных вашего бизнеса",
     text: "Предотвращаем утечки конфиденциальной информации и обеспечиваем контроль над всеми каналами передачи данных",
     cta: "Подробнее",
-    image: "/images/dlp-illustration.svg",
+    image: "/images/dlp-illustration.png",
   },
   features: [
     {
@@ -87,18 +87,18 @@ export const partners = {
     "Мы сотрудничаем с ведущими мировыми компаниями, чтобы предоставлять вам лучшие решения",
   cta: "Стать партнёром",
   logos: [
-    { name: "O‘ZMILLIYBANK", src: "/images/logos/nbu.svg" },
-    { name: "UZTELECOM", src: "/images/logos/uztelecom.svg" },
-    { name: "Beeline", src: "/images/logos/beeline.svg" },
-    { name: "ANORBANK", src: "/images/logos/anorbank.svg" },
-    { name: "uzum bank", src: "/images/logos/uzum.svg" },
+    { name: "O‘ZMILLIYBANK", src: "/images/logos/nbu.png" },
+    { name: "UZTELECOM", src: "/images/logos/uztelecom.png" },
+    { name: "Beeline", src: "/images/logos/beeline.png" },
+    { name: "ANORBANK", src: "/images/logos/anorbank.png" },
+    { name: "uzum bank", src: "/images/logos/uzum.png" },
   ],
 };
 
 export const about = {
   title: "О нас",
   text: "Support Station — ваш надёжный IT-партнёр. Мы предоставляем комплексные решения для защиты и поддержки вашего бизнеса с использованием передовых технологий.",
-  image: "/images/server-glow.svg",
+  image: "/images/server-glow.png",
   stats: [
     { value: "10+", label: "Лет опыта" },
     { value: "500+", label: "Довольных клиентов" },
@@ -111,12 +111,11 @@ export const gallery = {
   label: "Вместе к успеху",
   subtitle: "Моменты сотрудничества и партнёрства",
   images: [
-    "/images/team-1.svg",
-    "/images/team-2.svg",
-    "/images/team-3.svg",
-    "/images/team-4.svg",
-    "/images/team-5.svg",
-    "/images/team-6.svg",
+    "/images/team-1.png",
+    "/images/team-2.png",
+    "/images/team-3.png",
+    "/images/team-4.png",
+    "/images/team-5.png",
   ],
 };
 
